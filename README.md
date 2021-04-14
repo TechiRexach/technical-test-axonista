@@ -2,7 +2,7 @@
 
 Clone the repository to your computer.
 
-Open a new terminal and run ```pwd``` to confirm that you are in the correct folder: ```(whereisbetter)```.
+Open a new terminal and run ```pwd``` to confirm that you are in the correct folder.
 
 Then run ```npm start```. 
 
