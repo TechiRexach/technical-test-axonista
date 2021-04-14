@@ -60,16 +60,15 @@ function Cities(props){
             {success && <h3>{success}</h3>}
             <div className="mb-3 country">
             <select type='text' name='countries' onChange={handleChangeCountry} className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                <option defaultValue disabled>Choose a country</option>
+                <option defaultValue>Choose a country</option>
                 {countries && countries.map(oneCountry => (
-                    
                     <option key={oneCountry.country} name='country' value={oneCountry.country}>{oneCountry.country}</option> 
                 ))}
             </select>
             </div>
             <div className="mb-3 city">
             <select type='text' name='cities' onChange={handleSelectCity} className="form-select form-select-sm" aria-label=".form-select-sm example">
-                <option defaultValue disabled>Choose a city</option>
+                <option defaultValue>Choose a city</option>
                 {cities && cities.map(oneCity => (
                     <option key={oneCity.country} name='selectedCity' value={oneCity}>{oneCity}</option> 
                 ))}
